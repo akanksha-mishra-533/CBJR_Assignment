@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment1</title>
+</head>
+<body>
+<h1><b>&lt John Doe &gt :)</b></h1> 
+			<br>
+<h3><b>Contact</h3></b>
+			<br>
+0123456789
+			<br>
+<h3><b>Email</h3></b>
+			<br>
+qwerty@gmail.com
+			<br>
+<h3><b>Address</h3></b>
+			<br>
+123 lorem ipsum
+			<br>
+<h2><b>Skills</h2></b>
+			<br>
+HTML, CSS
+			<br><br>
+Javascript/jQuery
+			<br>
+<h2><b>Education</h2></b>
+			<br>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, maxime obcaecati enim illo dolorem, recusandae eum! Quasi natus quaerat aspernatur hic, maxime necessitatibus, quo voluptatem veritatis excepturi error sit vero deleniti laborum alias, expedita nostrum. Mollitia doloribus voluptates explicabo  quidem.
+			<br>
+<h2><b>Activity</h2></b>
+			<br>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.aspernatur rem, perspiciatis aliquam amet asperiores earum vero hic ab, minus veritatis.
+			<br>
+<h2><b>Career goals</h2></b>
+			<br>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.aspernatur rem, perspiciatis aliquam amet asperiores earum vero hic ab, minus veritatis.
+			<br>
+<h2><b>Family</h2></b>
+			<br>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.aspernatur rem, perspiciatis aliquam amet asperiores earum vero hic ab, minus veritatis.
+			<br>
+</body>
+</html>
