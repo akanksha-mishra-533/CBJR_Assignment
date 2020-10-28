@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Latest News" content="Browser compatibility, Latest news, Useful info">
+	<title>Assignment2</title>
+</head>
+<body>
+
+<header>
+	<p>
+		HOME &nbsp &nbsp &nbsp EXAMPLES &nbsp &nbsp &nbsp A PAGE &nbsp &nbsp &nbsp ANOTHER PAGE &nbsp &nbsp &nbsp CONTACT US
+	</p>
+</header>
+
+<main>
+	
+	<section>
+		<h2>
+			Welcome to the colour_green template
+		</h2>
+		<p>
+			Lorem Ipsum is simple dummt text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since 1500s, when an unknown printer took a galley of type and scrambled to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  
+		</p>
+		<p>
+			This template is written entirely in <b>HTML5</b> and <b>CSS</b>, and can be validated using the links in the footer.
+		</p>
+		<p>
+			You can view ,ore free HTML5 web templates <b>here.</b>
+		</p>
+		<p>
+			This template is a fully functional 5 page website, with a page that gives examples of all styles available with this design.
+		</p>
+	</section>
+
+	<section>
+		<h2>
+			Browser Compatibility
+		</h2>
+		<p>
+			This tempplate has been tested in the following browsers:
+		</p>
+		<p>
+			Internet Explorer 8 <br>
+			Internet Explorer 7 <br>
+			FireFox 3.5 <br>
+			Google Chrome 6 <br>
+			Safari 4 
+		</p>
+	</section>
+
+</main>
+
+<aside>
+	<h1>
+		Latest News
+	</h1>
+	<p>
+		<b>New Website Launched</b><br>
+		<i>January 1st, 2010</i>
+	</p>
+	<p>
+		2010 sees the redesign of our website. Take a look round and let us know what you think.<br>
+		Read more
+	</p>
+	<br>
+	<p>
+		<b>New Website Launched</b><br>
+		<i>January 1st, 2010</i>
+	</p>
+	<p>
+		2010 sees the redesign of our website. Take a look round and let us know what you think.<br>
+		Read more
+	</p>
+	<br>
+	<h1>
+		Useful Information
+	</h1>
+	<p>
+		Lorem Ipsum
+	</p>
+	<br>
+	<h1>
+		Search
+	</h1>
+</aside>
+<footer>
+	<p>
+		COPYRIGHT &copy; COLOUR_GREEN | CSS |DESIGN FROM HTML5WEBTEMPLATES.CO.UK
+	</p>
+</footer>
+
+</body>
+</html>
