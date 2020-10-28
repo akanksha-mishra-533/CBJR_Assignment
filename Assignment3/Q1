@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Favourites" content="My favourite marvel movies, Ucoming Phase Four">
+	<title>Assignment3</title>
+</head>
+<body>
+	<main>
+		<section>
+			<h1>My Favourite Marvel Movies</h1>
+			<ol>
+				<li><b>Phase One</b></li>
+					<ul type="square">
+						<li>Iron Man</li>
+							<ol type="a">
+								<li>Release Date</li>
+									<ul type="circle">
+										<li>May 2,2008</li>
+									</ul>
+								<li>Director(s):</li>
+									<ol type="i">
+										<li>Jon Favreau</li>
+											<ul type="square">
+												<li>Actor</li>
+													<ul type="circle">
+														<li>1992-present</li>
+													</ul>
+												<li>Director</li>
+											</ul>
+									</ol>
+								<li>Producer(s):</li>
+									<ol reversed="">
+										<li>Avi Arad</li>
+										<li>Kevin Feige</li>
+									</ol>
+							</ol>
+						<li>Incredible Hulk</li>
+							<ol type="a">
+								<li>Release Date</li>
+									<ul type="circle">
+										<li>June 13,2008</li>
+									</ul>
+								<li>Director(s):</li>
+									<ol type="i">
+										<li>Louis Laterrier</li>
+											<ul type="square">
+												<li>Director</li>
+													<ul type="circle">
+														<li>2002-present</li>
+													</ul>
+												<li>Producer</li>
+											</ul>
+									</ol>
+								<li>Producer(s):</li>
+									<ol reversed="">
+										<li>Gale Anne Hurd</li>
+										<li>Avi Arad</li>
+										<li>Kevin Feige</li>
+									</ol>
+							</ol>Iron man 2</li>
+							<ol type="a">
+								<li>Release Date</li>
+									<ul type="circle">
+										<li>May 7,2010</li>
+									</ul>
+								<li>Director(s):</li>
+									<ol type="i">
+										<li>John Favreau</li>
+											<ul type="square">
+												<li>Actor</li>
+													<ul type="circle">
+														<li>1992-present</li>
+															<ol>
+																<li>About him</li>
+																	&nbsp As an actor Favreau appeared in the film Rudy, Swingers
+															</ol>
+													</ul>
+												<li>Director</li>
+											</ul>
+									</ol>
+								<li>Producer(s):</li>
+									<ol reversed="">
+										<li>Kevin Feige</li>
+									</ol>
+							</ol>
+						<li>Thor</li>
+							<ol type="a">
+								<li>Release Date</li>
+									<ul type="circle">
+										<li>May 6,2011</li>
+									</ul>
+								<li>Director(s):</li>
+									<ol type="i">
+										<li>Kreneth Branagh</li>
+											<ul type="square">
+												<li>Actor</li>
+													<ul type="circle">
+														<li>1981-present</li>
+													</ul>
+												<li>Director</li>
+											</ul>
+									</ol>
+								<li>Producer(s):</li>
+									<ol reversed="">
+										<li>Kevin Feige</li>
+									</ol>
+							</ol>
+					</ul>
+				<li><b>Phase Two</b></li>
+					<ul type="square">
+						<li>Iron Man 3</li>
+							<ol type="a">
+								<li>Release Date</li>
+									<ul type="circle">
+										<li>May 3,2013</li>
+									</ul>
+								<li>Director(s):</li>
+									<ol type="i">
+										<li>Shane Black</li>
+									</ol>
+							</ol>
+						<li>Thor: The Dark World</li>
+							<ol type="a">
+								<li>Release Date</li>
+									<ul type="circle">
+										<li>November 8,2013</li>
+									</ul>
+								<li>Director(s):</li>
+									<ol type="i">
+										<li>Alan Taylor</li>
+									</ol>
+							</ol>
+					</ul>
+				<li><b>Phase Three</b></li>
+					<ol type="A">
+						<li>Captain Marvel</li>
+						<li>Avengers: Endgame</li>
+					</ol>
+			</ol>			
+		</section>
+		<section>
+			<h1>Upcoming Phase Four</h1>
+			<p><b>Black Widow</b> <br> &nbsp &nbsp Black Widow is an upcoming American superhero film based on the Marvel Comic character</p>				
+		</section>
+	</main>
+</body>
+</html>
