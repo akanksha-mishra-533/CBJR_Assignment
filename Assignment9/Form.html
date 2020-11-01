@@ -26,19 +26,19 @@
         <fieldset>
             <legend>Preferences</legend>
             <label for="rt">Room type: </label>
-            <input type="radio" id="rt" name="rt" checked=""> Standard 
-            <input type="radio" id="rt" name="rt"> Business
-            <input type="radio" id="rt" name="rt"> Suite 
+            <input type="radio" id="room" name="room" checked=""> Standard 
+            <input type="radio" id="room" name="room"> Business
+            <input type="radio" id="room" name="room"> Suite 
             <br><br>
-            <label for="bt">Bedtype type: </label>
-            <input type="radio" id="bt" name="bt" checked=""> King 
-            <input type="radio" id="bt" name="bt"> Double Double
+            <label for="bt">Bed type: </label>
+            <input type="radio" id="bed_type" name="bed_type" checked=""> King 
+            <input type="radio" id="bed_type" name="bed_type"> Double Double
             <br><br>
             <input type="checkbox" name="cb" id="cb">
-            <label for="cb">Smoking</label>
+            <label for="check_box">Smoking</label>
             <br><br>
             <label for="fo">Food options: </label>
-            <input type="text" name="fo" id="fo">
+            <input type="text" name="food" id="food">
         </fieldset>
         <br>
         <fieldset>
@@ -46,33 +46,32 @@
             <label for="name">Name</label>
             <input type="text" name="name" id="name" required>
             <br><br>
-            <label for="name">Email</label>
-            <input type="email" name="name" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
             <br><br>
-            <label for="name">Phone</label>
-            <input type="text" name="name" id="name" required>
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" required>
             <br><br>
-            <label for="name">Password</label>
-            <input type="password" name="name" id="name" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
             <br><br>
         </fieldset>
         <br>
         <fieldset>
             <legend>Distance Information</legend>
-            <label for="fm">fuel meter  
+            <label for="fuel_meter">fuel meter  
             </label>
-            <meter id="fm" name="fm" max="100" min="0" low="30" high="60" optimum="80" value="60"></meter>
+            <meter id="fuel_meter" name="fuel_meter" max="100" min="0" low="30" high="60" optimum="80" value="60"></meter>
             <br><br>
 
-            <label for="">Progress Bar</label>
-            <progress min="0" max="100" value="85"></progress>
+            <label for="progree">Progress Bar</label>
+            <progress min="0" max="100" value="85" name="progess" id="progress"></progress>
             <br><br>
 
-            <label for="pv">Write About the place of Visit: </label>
+            <label for="para">Write About the place of Visit: </label>
             <br><br>
-            <textarea name="pv" id="pv" cols="40" rows="5" placeholder="Enter your Paragraph"></textarea>
+            <textarea name="para" id="para" cols="40" rows="5" placeholder="Enter your Paragraph"></textarea>
         </fieldset>
-
         <br>
         <input type="submit" >
     </form>
