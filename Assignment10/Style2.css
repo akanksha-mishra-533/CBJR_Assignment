@@ -1,0 +1,45 @@
+body{
+	background-color: seashell;
+}
+h1{
+	text-decoration: underline;
+	text-decoration-color: red;
+}  
+#good{
+	color: maroon;
+}
+#food{
+	color: blue;
+}
+.sub_heading{
+	color: purple;
+}
+#para_heading{
+	color: #aa4e1c;
+}
+#p1{
+	color: #0D8989;
+	text-decoration: underline;
+	text-decoration-color: #0D8989;
+}
+#s1{
+	color: #86277F
+}
+#s2{
+	color: #DC1400
+}
+#s3{
+	color: #27ff27
+}
+#p3{
+	color: #0D730D
+}
+#p4{
+	color: #CAD407
+}
+.s4{
+	color: #D80185
+}
+.diff{
+	font-size: 20px;
+}
