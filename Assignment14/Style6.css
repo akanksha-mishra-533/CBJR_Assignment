@@ -1,0 +1,17 @@
+body{
+	background-color: mistyrose;
+}
+#viewport{
+	border: 40px aquamarine groove;
+	text-align: center;
+	background-color: yellowgreen;
+	text-align: center;
+}
+#viewport img{
+	border: 10px red dashed;
+	border-radius: 30px;
+
+}
+#viewport p{
+	border: 20px double green;
+}
