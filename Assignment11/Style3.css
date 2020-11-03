@@ -1,0 +1,47 @@
+body{
+	background-color: lightgrey;
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	background-color: LightPink;
+	text-align: center;
+	font-family: algerian;
+	font-size: 50px; 
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	font-size: 25px;
+	margin: 10px;
+}
+#section_1, #section_2, #section_3, footer{
+	margin: 10px;
+}
+#h1{
+	font-size: 35px;
+	color: #E9415B;
+}
+#h2{
+	color: darkgreen;
+	font-size: 35px;
+	text-align: right;
+	text-decoration: overline;
+}
+#h3{
+	background-color: yellow;
+	text-align: center;
+	color: darkblue;
+	text-decoration: underline;
+}
+#p1, #p2, #p3{
+	font-family: Lucida Calligraphy;
+}
+#p3{
+	text-decoration: line-through;
+}
+#f_s2{
+	float: right;
+}
