@@ -1,0 +1,103 @@
+body{
+	background-color: #00D19A;
+	margin: 0px;
+	padding: 0px;
+	font-family: Comic Sans MS;
+}
+section{
+	margin: 50px;
+	background-color: yellow;
+}
+h2{
+	text-align: center;
+	padding-top: 30px;
+}
+
+/*Navigation Bar*/
+
+#nav_bar{
+	height: 60px;
+	position: fixed;
+	top: 0px;
+	background-color: pink;
+	width: 100vw;
+	margin-bottom: 30px;
+}
+#nav_bar h3{
+	font-size: 25px;
+	font-weight: 700;
+	display: inline;
+}
+a{
+	text-decoration: none;
+	margin-top: 7px;
+	font-size: 20px;
+	margin: 20px;
+}
+
+/*Section 2*/
+
+#sec_2{
+	margin-top: 90px;
+	height: 320px;
+	display: flex;
+	align-items: center;
+}
+img{
+	margin: 20px;
+	float: left;
+}
+#para1 h1{
+	font-size: 50px;
+	margin-left: 30px;
+}
+#para1 p{
+	font-size: 20px;
+	margin-left: 30px;
+}
+#name{
+	text-transform: uppercase;
+}
+#view_portfolio{
+	border: 2px solid #00D19A;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	margin-left: 30px;
+	text-decoration: none;
+}
+#view_portfolio span{
+	color: black;
+	margin: 20px;
+	font-size: 20px;
+}
+
+/*About Section*/
+
+#about{
+	height: 180px;
+}
+#about p{
+	margin-left: 30px;
+}
+
+/*My Projects*/
+
+#projects{
+	height: 190px;
+}
+#projects ul{
+	list-style: none;
+}
+
+/*Languages*/
+
+#lang{
+	height: 190px;
+}
+#lang ul{
+	list-style: none;
+}
