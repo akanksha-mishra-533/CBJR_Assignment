@@ -1,0 +1,32 @@
+body{
+	background-color: dimgrey;
+}
+h1{
+	text-align: center;
+	text-shadow: 0px 0px 10px goldenrod,
+                     0px 4px 1px rgba(0,0,0,0.2),
+                     4px 4px 5px rgba(0,0,0,0.3),
+                     0px 0px 7px rgba(0,0,0,0.4);
+    font-size: 50px;                 
+}
+h2{
+	color: darkblue;
+	text-decoration: line-through;
+	text-decoration-color: #751613;
+	font-size: 40px;
+}
+p{
+	color: goldenrod;
+	font-size: 18px;
+}
+#s{
+	color: pink;
+	font-size: 22px;
+}
+#p5{
+	color: violet;
+	text-transform: uppercase;
+}
+#p6{
+	color: maroon;
+}
