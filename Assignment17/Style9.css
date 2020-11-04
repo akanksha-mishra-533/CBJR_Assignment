@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	padding: 0px; 
+}
+
+.p1, .p2{
+	margin: 0px;
+	font-family: Bradley Hand ITC;
+}
+
+/*Header section*/
+
+
+.d1{
+	height: 35px;
+	position: fixed;
+	top: 0px;
+	background-color: pink;
+	width: 100vw;
+	margin-bottom: 30px;
+}
+.d1 h1{
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*Section_2*/
+
+.heading h1{
+	padding: 50px;
+	color: deeppink;
+	font-size: 50px;
+}
+.heading{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnbW8yaOk-_BxDDu_rm3p8PjbLil18OUJkvA&usqp=CAU);
+	height: 160px;
+}
+
+
+
+/*main section*/
+h2{
+	margin: 0px;
+}
+.ha{
+	background-color: peachpuff;
+	height: 30px;
+	padding: 0px;
+	position: sticky;
+	top: 34px;
+}
+.d2{
+	background-color: powderblue;
+}
+.hb{
+	background-color: aquamarine;
+	height: 30px;
+	padding: 0px;
+	position: sticky;
+	top: 34px;
+}
+.d3{
+	background-color: pink;
+
+}
