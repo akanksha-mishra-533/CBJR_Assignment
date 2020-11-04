@@ -1,0 +1,80 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #7AA18C
+}
+p, em{
+	font-family: Bradley Hand ITC;
+	font-size: 20px;
+}
+
+/********************** Heading *******************/
+
+h1{
+	color: goldenrod;
+	font-size: 40px;
+}
+h1:hover{
+	color: #2A88E4;
+	font-size: 45px;
+}
+
+/********************** Heading *******************/
+
+img{
+	margin-top: 30px;
+	border: 3px dashed #91cbe1;
+	margin-bottom: 30px;
+}
+img:hover{
+	width: 250px;
+	height: 250px;
+}
+
+/********************** Sub_heading *******************/
+
+#sub_heading{
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	color: #102d62;
+	font-weight: 400;
+}
+
+/********************** paragraphs *******************/
+
+#p2{
+	color: #fef7b3;
+}
+#p3{
+	background-color: #91cbe1;
+	color: #de5448;
+}
+#d2 em:only-of-type{
+	color: seashell;
+}
+#p7{
+	color: #fef7b3;
+}
+
+/********************** quiz section *******************/
+
+input{
+	background-color: yellowgreen;
+}
+/*Wrong guess*/
+input:out-of-range + label::after{
+	content: " wrong guess...you will be punished"
+}
+input:out-of-range + label::before{
+	content: " issssshhhhh..."
+}
+input:out-of-range{
+	background-color: lightblue;
+}
+/*correct guess*/
+input:in-range + label::after{
+	content: " correct guess!"
+}
+input:in-range + label::before{
+	content: " Yey! "
+}
