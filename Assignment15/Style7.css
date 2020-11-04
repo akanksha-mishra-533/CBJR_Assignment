@@ -1,0 +1,47 @@
+body{
+	text-align: center;
+	background-color: powderblue;
+	border: 20px groove;
+}
+img:hover{
+	width: 350px;
+	height: 300px; 
+}
+h1:hover{
+	color: grey;
+}
+h3:hover{
+ 	color: navy;
+ }
+input:hover{
+ 	background-color: yellow;
+ 	border: none;
+}
+ input:focus{
+ 	outline: none;
+ 	border: 5px groove;
+ }
+input[type=radio]:hover{
+ 	box-shadow: 0px 0px 10px yellowgreen;   
+}
+input[type=radio]:focus{
+ 	box-shadow: 0px 0px 10px yellowgreen;   
+}
+input[type=checkbox]:hover{
+ 	box-shadow: 0px 0px 10px navy;   
+}
+input[type=checkbox]:focus{
+ 	box-shadow: 0px 0px 10px navy;   
+}
+input[type=submit]{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+input[type=submit]:hover{
+ 	width: 90px;
+ 	height: 45px;  
+ 	background-color: #2D353C;
+ 	border: none;
+ 	padding: 10px; 
+ 	color: white;
+}
