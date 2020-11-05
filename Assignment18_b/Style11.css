@@ -1,0 +1,182 @@
+body{
+	background-color: yellow;
+	margin: 0px;
+	padding: 0px;
+	font-family: Comic Sans MS;
+}
+section{
+	margin: 5px;
+	background-image: linear-gradient(to right, #de6262, #ffb88c);
+}
+h2{
+	text-align: center;
+}
+#projects span, #lang span{
+	margin-left: 40px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+#about p{
+	font-size: 20px;
+}
+
+/*Navigation Bar*/
+
+/*portfolio heading of nav bar*/
+#nav_bar{
+	height: 60px;
+	position: fixed;
+	top: 0px;
+	background-color: pink;
+	width: 100vw;
+	margin-bottom: 30px;
+}
+#nav_bar h3{
+	font-size: 25px;
+	font-weight: 700;
+	display: inline;
+	transition: all 1s ease-in-out;
+}
+#nav_bar h3:hover{
+	margin-left: 20px;
+	text-shadow: 0px 0px 20px red;
+	font-size: 30px;
+	font-weight: 700;
+	display: inline;
+	transition: all 1s ease-in-out;
+}
+/*links of navigation*/
+a{
+	text-decoration: none;
+	margin-top: 7px;
+	font-size: 20px;
+	margin: 20px;
+	transition: all 1s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+	margin-top: 7px;
+	font-size: 20px;
+	margin: 20px;
+	text-shadow: 0px 0px 1px #0000EE;
+	transition: all 1s ease-in-out;
+}
+
+/*Section 2*/
+
+#sec_2{
+	margin-top: 90px;
+	height: 390px;
+	display: flex;
+	align-items: center;
+}
+img{
+	margin: 20px;
+	float: left;
+}
+img:hover{
+	box-shadow: 0px 0px 10px hotpink;
+	transform: rotate(360deg);
+	transition: 4s ease-in-out;
+}
+#para1 a:hover{
+	letter-spacing: 2px;
+	transition: all 0.2s ease-in-out;
+}
+#para1 h1{
+	font-size: 50px;
+	margin-left: 30px;
+}
+#para1 h1:hover{
+	font-size: 70px;
+	text-shadow: 0px 0px 2px orange;
+	transition: 1s all ease-in-out;
+}
+#para1 span:hover{
+	font-size: 25px;
+	text-shadow: 0px 0px 1px powderblue;
+	transition: all 1s ease-in-out;
+}
+#para1 p{
+	font-size: 20px;
+	margin-left: 30px;
+}
+#name{
+	text-transform: uppercase;
+}
+#name:hover{
+	transform: rotate(360deg);
+	font-size: 30px;
+	transition: all 1s ease-in-out;
+}
+#view_portfolio{
+	border: 2px solid #00D19A;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	margin-left: 30px;
+	text-decoration: none;
+}
+#view_portfolio span{
+	color: black;
+	margin: 20px;
+	font-size: 20px;
+}
+
+/*About Section*/
+
+#about{
+	height: 200px;
+}
+#about p{
+	margin-left: 30px;
+}
+#about h2:hover{
+	text-spacing: 2px;
+	font-size: 30px;
+	background-color: #ffc3a0;
+	transition: 1s ease-in-out;
+}
+#about p span:hover{
+	font-size: 25px;
+	text-shadow: 0px 0px 1px powderblue;
+	transition: all 0.5s ease-in-out;
+}
+
+/*My Projects*/
+
+#projects h2{
+	font-size: 25px;
+	transition: all 2s ease-in-out;
+}
+#projects h2:hover{
+	font-size: 30px;
+	text-shadow: 0px 0px 20px red;
+	background-color: #8dd48a;
+	transform: rotate(360deg);
+	transition: all 2s ease-in-out;
+}
+#projects span:hover, #lang span:hover{
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-shadow: 0px 0px 2px powderblue;
+	transition: all 0.5s ease-in-out;
+}
+
+/*Languages*/
+
+#lang h2{
+	font-size: 25px;
+	transition: all 2s ease-in-out;
+}
+
+#lang h2:hover{
+	font-size: 30px;
+	text-shadow: 0px 0px 20px orange;
+	background-color: #d9dfc7;
+	transform: rotate(360deg);
+	transition: all 2s ease-in-out;
+}
