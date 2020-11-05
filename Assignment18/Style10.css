@@ -1,0 +1,92 @@
+body{
+	background-color: powderblue;
+	margin: 0px;
+	padding: 0px;
+}
+/*****************POSTER**************************/
+.animated_poster{
+	margin: 0px;
+	height: 100px;
+	width: 100vw;
+	background-color: pink;
+	position: absolute;
+	transition: all 2s ease-in-out;
+}
+.animated_poster:hover{
+	margin: 300px;
+	margin-left: 550px;
+	width: 250px;
+	height: 150px;
+	background-color: blue;
+	transition: all 2s ease-in-out;
+	
+}
+.animated_poster h1{
+	margin: 0px;
+	padding: 30px;
+}
+
+/*****************IMAGES**************************/
+
+img{
+	margin: 30px;
+}
+
+/*****************IMAGES ANIME**************************/
+
+/*image 1*/
+#img1{
+	margin-top: 150px;
+	transition: all 2.5s ease-out;
+}
+#img1:hover{
+	width: 300px;
+	height: 300px;
+	margin: 200px;
+	border: 20px groove;
+	transform: rotate(360deg);
+	transition: all 2.5s ease-out;
+}
+
+/*image 2*/
+#img2{
+	box-shadow: 5px 5px 90px black;
+	transition: all 3.5s ease-in-out;
+}
+#img2:hover{
+	width: 300px;
+	height: 300px;
+	margin: 200px;
+	transform: rotate(720deg);
+	transition: all 3.5s ease-in-out;
+	box-shadow: 5px 5px 90px orange;
+}
+
+/*image 3*/
+#img{
+	transition: all 1s ease-in-out;
+}
+#img3:hover{
+	width: 300px;
+	height: 300px;
+	margin: 200px;
+	transition: all 1s ease-in-out;
+	box-shadow: 5px 5px 90px orange;
+}
+
+/*image 4*/
+#img4{
+	margin-bottom: 800px;
+	height: 200px;
+	width: 200px;
+	transition: all 2s ease-in-out;
+}
+#img4:hover{
+	margin: 400px;
+	margin-left: 550px;
+	width: 400px;
+	height: 400px;
+	box-shadow: 5px 5px 90px orange;
+	transform: rotate(360deg);
+	transition: all 2s ease-in-out;
+}
