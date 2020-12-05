@@ -1,0 +1,71 @@
+body{
+	background-color: #3333;
+}
+img{
+	width: 300px;
+	height: 400px;
+}
+h1{
+	font-family: algerian;
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 0px 0px 5px goldenrod;
+}
+.container{
+	width: 1000px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.container .card{
+	margin: 20px;
+	position: relative;
+}
+.container .card .face{
+	width: 300px;
+	height: 350px;
+	transition: 0.5s;
+}
+.container .card .face.face1{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	transform: translateY(100px);
+}
+.container .card:hover .face.face1{
+	transform: translateY(0px);
+}
+.container .card .face.face2{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+	transform: translateY(-250px);
+}
+.container .card:hover .face.face2{
+	transform: translateY(0px);
+}
+.container .card .face.face2 .content p{
+	padding: 0px;
+	margin: 0px;
+}
+.container .card .face.face2 .content a{
+	margin: 15px 0 0;
+	text-align: center;
+	height: 20px;
+	width: 100px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 900;
+	padding: 5px;
+	border: 1px solid #333;
+}
+.container .card .face.face2 .content a:hover{
+	background-color: #333;
+	color: #fff;
+}
