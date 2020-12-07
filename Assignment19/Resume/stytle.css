@@ -1,0 +1,374 @@
+body{
+	background-color: white;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*#FFE8CD*/
+.header_section{
+	background-image: linear-gradient( #7d0808c2, #faf1ffc2);
+	height: 400px;
+	width: 100%;
+}
+.horizontal_list_container{
+	justify-content: center;
+	background-color: #c5686d;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	/*padding: 0px;
+	margin: 0px;*/
+	top: 0px;
+	height: 58px;
+	box-shadow: 2px 2px 0px 2 black;
+}
+/***************************************************************************************************************
+****************************************************************************************************************
+***************************************   		Navigation            ******************************************
+***************************************                               ******************************************
+**************************** ************************************************************************************
+****************************************************************************************************************/
+.horizontal_list li{
+	display: inline;
+	text-decoration: none;
+}
+.horizontal_list li a{
+	font-weight: 100;
+	color: #faf1ffc2;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 17px;
+	margin-left: 10px;
+}
+.horizontal_list li a:hover{
+	border-bottom: 1px solid black;
+	color: black;
+	transition: 1s ease-in;
+}
+.icons img{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 20px;
+	margin-top: 100px;
+}
+.icons img:hover{
+	box-shadow: 0px 0px 10px #90073a;
+	transition: 0.5s ease-in-out;
+}
+.profile_img img{
+	border-radius: 50%;
+	position: relative;
+	height: 230px;
+	width: 230px;
+	top: 10px;
+}
+.profile_img img:hover{
+	height: 240px;
+	width: 240px;
+	box-shadow: 0px 0px 30px #ff4c6bc7;      
+	transition: 0.5s ease-in-out;
+}
+.header_section h1{
+	margin-top: 30px;
+	font-size: 40px;
+	color: #981f4c;
+}
+.header_section h1:hover{
+	color: #981f4cde;
+	font-size: 40.5px;
+	transition: 0.3s ease-in-out;
+}
+/***************************************************************************************************************
+****************************************************************************************************************
+***************************************   		Intro para            ******************************************
+***************************************                               ******************************************
+****************************************************************************************************************
+****************************************************************************************************************/
+.my_intro_para{
+	text-align: center;
+	padding-top: 200px;
+	margin-bottom: 30px;
+	color: green;						
+}
+/***************************************************************************************************************
+****************************************************************************************************************
+***************************************   		skill_section            ****************************************
+***************************************                                  ****************************************
+****************************************************************************************************************
+****************************************************************************************************************/
+.skill{
+	background-image: linear-gradient(#FFE8CD, white);
+	padding: 60px;
+} 
+.table{
+	margin: 70px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;    
+}
+.plate{
+	height: 40px;
+	width: 200px;
+	border-radius: 20px;
+	margin: 20px;
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-shadow: 0px 0px 20px grey inset;
+}
+#css{
+	height: 39.6px;
+	width: 50%;
+	border-radius: 20px 0px 0px 20px;
+	background-color: pink;
+	color: white;
+	box-shadow: 3px 0.5px 4px grey;
+	animation: css 3s;
+}
+#js{
+	height: 39.6px;
+	width: 60%;
+	border-radius: 20px 0px 0px 20px;
+	background-color: lightgreen;
+	color: white;
+	box-shadow: 3px 0.5px 4px grey;
+	animation: js 3s;
+}
+#html{
+	height: 39.6px;
+	width: 90%;
+	border-radius: 20px 0px 0px 20px;
+	background-color: green;
+	color: white;
+	box-shadow: 3px 0.5px 4px grey;
+	animation: html 3s;
+}
+#node{
+	height: 39.6px;
+	width: 70%;
+	border-radius: 20px 0px 0px 20px;
+	background-color: orange;
+	color: white;
+	box-shadow: 3px 0.5px 4px grey;
+	animation: node 3s;
+}
+#c{
+	height: 39.6px;
+	width: 20%;
+	border-radius: 20px 0px 0px 20px;
+	background-color: gold;
+	color: white;
+	box-shadow: 3px 0.5px 4px grey;
+	animation: c 3s;
+}
+#python{
+	height: 39.6px;
+	width: 80%;
+	border-radius: 20px 0px 0px 20px;
+	background-color: blue;
+	color: white;
+	box-shadow: 3px 0.5px 4px grey;
+	animation: python 3s;
+}
+@keyframes css{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 50%;
+	}
+}
+@keyframes js{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+@keyframes html{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+@keyframes node{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 70%;
+	}
+}
+@keyframes c{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 20%;
+	}
+}
+@keyframes python{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+.apple span{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10px;
+}
+/***************************************************************************************************************
+****************************************************************************************************************
+***************************************    experience_section            ****************************************
+***************************************                                  ****************************************
+****************************************************************************************************************
+****************************************************************************************************************/
+#education{
+	padding: 20px;	
+	background-image: linear-gradient(#e884c06e, #ffffff 80%);
+}
+#experience{
+	padding: 20px;
+	background-image: linear-gradient(#6c3cdc4d, #fefeff 90%)
+}
+#title{
+    color: blue;
+    text-align: center;
+    font-size: 25px; 
+}
+#title:hover{
+    color: darkblue;
+    text-align: center;
+    font-size: 28px; 
+}
+#experience-box{
+	margin-top: 5%;
+	margin-bottom: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.timeline-box{
+    position: relative;
+    max-height: 1000px;
+    width: 40%;
+    position: relative;
+    /*border: 2px solid black;*/
+}
+.timeline-box:nth-child(odd){
+    margin-left: 6%;
+}
+.timeline-box:nth-child(2n){
+    margin-right: 4%;
+    left: 55%;
+}
+#timeline-divider{
+    position: absolute;
+    border-left: 5px dashed lightblue;
+    left: 50.5%;
+    width: 0px;
+    height: 69%;
+}
+.timeline-box::after{
+    content:'';
+    right: 110%;
+    top: 40%;    
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    background-color: green;
+    border-radius: 50%; 
+    z-index: 1;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content:'';
+    top: 55%;
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    background-color: green;
+    border-radius: 50%;
+    right:-13%;
+    z-index: 1;
+}
+.timeline_img img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+}
+.timeline_heading{
+    text-align: right;
+}
+.education_divider2{
+	transform: rotate(270deg);
+    margin-left: -37px;
+    width: 60px;
+    position: sticky;
+    top: 180px;
+    z-index: 2;
+}
+.experience_divider2{
+	transform: rotate(110deg);
+    margin-left: -35px;
+    width: 60px;
+    position: sticky;
+    top: 180px;
+    z-index: 2;
+}
+/***************************************************************************************************************
+****************************************************************************************************************
+***************************************    contact_section               ****************************************
+***************************************                                  ****************************************
+****************************************************************************************************************
+****************************************************************************************************************/
+.contact_container{
+	background-image: linear-gradient(to top left, #020048 40%, #0903c7);
+	height: 100%;
+	padding: 10px;
+}
+.form{
+	margin: 20px;
+	display: inline-block;
+	width: 50%;
+}
+#name, #email, #comment, textarea{
+	background-color: transparent;
+	margin-bottom: 20px;
+	margin: 10px;
+	border-style: none;
+	border-bottom: 2px solid black;
+	width: 80%;
+	color: white;
+}
+input[placeholder]{
+	font-size: 1rem;
+	opacity: 90rem;
+}
+textarea[placeholder]{
+	font-size: 1.4rem;
+	opacity: 90rem;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+.contact_aside{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+.contact_aside_para{
+	color: #c5686d;
+}
