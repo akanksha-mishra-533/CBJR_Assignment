@@ -1,0 +1,31 @@
+body{
+    /* background-image: linear-gradient(rgba(236, 178, 18, 0.644), rgba(255, 166, 0, 0.603)); */
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h1:hover{
+    color: thistle;
+}
+h1 span{
+    color: blue;
+    font-size: 60px;
+    transition: all 0.5s ease-in-out;
+}
+h1 span:hover{
+    text-shadow: -5px -5px 12px greenyellow;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}
+li:hover{
+    letter-spacing: 1px;
+    color: salmon;
+}
+p:hover{
+    color: salmon;
+}
